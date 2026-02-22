@@ -5,6 +5,8 @@ An automated document ingestion and retrieval-augmented generation (RAG) pipelin
 ---
 
 ## Architecture Overview
+<img width="1876" height="903" alt="image" src="https://github.com/user-attachments/assets/a65454d1-cddd-410a-be43-7799f8833d07" />
+
 
 ```
 Local File Trigger
@@ -143,3 +145,4 @@ Open the chat interface linked to the **When chat message received** webhook. As
 | Docling conversion fails | Service unreachable | Confirm Docling is running at `http://docling:5001` |
 | Embeddings dimension mismatch | Wrong model used | Ensure both Ollama Embeddings nodes use `nomic-embed-text:latest` |
 | Files not detected | Polling trigger not active | Activate the workflow and confirm the pending folder path is correct |
+
