@@ -146,3 +146,4 @@ Open the chat interface linked to the **When chat message received** webhook. As
 | Embeddings dimension mismatch | Wrong model used | Ensure both Ollama Embeddings nodes use `nomic-embed-text:latest` |
 | Files not detected | Polling trigger not active | Activate the workflow and confirm the pending folder path is correct |
 
+
